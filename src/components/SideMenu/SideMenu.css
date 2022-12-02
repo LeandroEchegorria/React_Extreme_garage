@@ -1,7 +1,7 @@
 @media screen and (max-width: 749px) {
     .menu{
         display: grid;
-        grid-template-columns: 25% 40% 8% ;
+        grid-template-columns: 35% 45% 10% ;
         height: fit-content;
         background-color: #1B204D;
         box-shadow: 2px 2px 2px black;
@@ -53,27 +53,23 @@
         border-radius: 21px;
         background-color: #1b204dd0;
     }
-    div.social-media{
-        display: flex;
-        flex-direction: column;
-        padding: 3px;
-        color: rgb(253, 44, 44);
-        margin: 5%;
-        text-align: end;
+    div.socialMedia a{
+        margin-left: 45%;
     }
 }
 
 @media screen and (min-width: 750px) { 
 
     div.menu{
-        
+        display: grid;
+        grid-template-columns: 5% 90% 5% ;
         height: fit-content;
         background-color: #1B204D;
         box-shadow: 2px 2px 2px black;
         
     }
     .logo-menu{
-
+        
         width: 10vw;
         margin: 5px 0 0 calc(90vw/2);
         justify-content: space-evenly;
@@ -87,6 +83,7 @@
         list-style: none;
         display: flex;
         justify-content: space-evenly;
+        margin-top: 15%;
 
 
     }

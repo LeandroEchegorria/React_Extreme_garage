@@ -1,11 +1,8 @@
 import React from 'react';
 import './Footer.css';
 import logo from '../../assets/img/Logo.png';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import YouTubeIcon from '@mui/icons-material/YouTube';
+import SocialMedia from '../SocialMedia/SocialMedia';
 
 
 const Footer = () => {
@@ -23,13 +20,14 @@ const Footer = () => {
             </a>
             <p>Diseño web por Leandro Echegorría</p>
           </div>
-          <div className='social-media'>
+          <SocialMedia/>
+{/*           <div className='social-media'>
             <a href='https://www.facebook.com/EXTREMEGARAGE.DETAILING' target='_blank' rel="noreferrer"><FacebookIcon fontSize='large'/></a>
             <a href='https://www.instagram.com/extremegarage.detailing/' target='_blank' rel="noreferrer"><InstagramIcon fontSize='large'/></a>
             <a href='mailto:extremegarageargentina@gmail.com' ><MailOutlineIcon fontSize='large'/></a>
             <a href='https://www.youtube.com/channel/UCK2wciKDiH_8aPYo7GrFGSA' target='_blank' rel="noreferrer"><YouTubeIcon fontSize='large'/></a>
 
-          </div>
+          </div> */}
 
         </div> 
   )

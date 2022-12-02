@@ -1,0 +1,7 @@
+.socialMedia a{
+    color:red;
+    padding: 5px;
+    margin: 20% 30% 1% 1%;
+    text-align: end;
+    display: inline-flex;
+}

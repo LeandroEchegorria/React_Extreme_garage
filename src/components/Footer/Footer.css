@@ -25,7 +25,7 @@
     .maps{
         color: rgb(253, 44, 44);
     }
-    .social-media{
+    div.social-media{
         color: rgb(253, 44, 44);
         margin: 5%;
         text-align: end;
@@ -47,19 +47,20 @@
         background-color: #000000;
         box-shadow: 2px 2px 2px black;
         color: white;
-        display: flex;
+        display: grid;
+        grid-template-columns: 20% 65% 10%;
     }
     .logo-footer{
         border: solid 1px white;
-        width: 128px;
-        margin: 5%;
+        width: 70%;
+        margin: 15%;
         display: flex;
 
     }
     .text-footer{
         color: rgb(180, 180, 180);
         margin: 5%;
-        text-align: end;
+        text-align: center;
     }
     .text-footer p{
         font-size: small;
