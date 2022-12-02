@@ -1,0 +1,85 @@
+@media screen and (max-width: 749px) {
+        
+    div.footer{
+        height: fit-content;
+        background-color: #000000;
+        box-shadow: 2px 2px 2px black;
+        color: white;
+        display: flex;
+    }
+    .logo-footer{
+        border: solid 1px white;
+        height: 130px;
+        margin: 4%;
+        display: flex;
+
+    }
+    .text-footer{
+        color: rgb(180, 180, 180);
+        margin: 5%;
+        text-align: end;
+    }
+    .text-footer p{
+        font-size: small;
+    }
+    .maps{
+        color: rgb(253, 44, 44);
+    }
+    .social-media{
+        color: rgb(253, 44, 44);
+        margin: 5%;
+        text-align: end;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .social-media a{
+        padding: 3px;
+        color: rgb(253, 44, 44);
+        margin: 5%;
+        text-align: end;
+
+    }
+}
+@media screen and (min-width: 750px) {
+    div.footer{
+        height: fit-content;
+        background-color: #000000;
+        box-shadow: 2px 2px 2px black;
+        color: white;
+        display: flex;
+    }
+    .logo-footer{
+        border: solid 1px white;
+        width: 128px;
+        margin: 5%;
+        display: flex;
+
+    }
+    .text-footer{
+        color: rgb(180, 180, 180);
+        margin: 5%;
+        text-align: end;
+    }
+    .text-footer p{
+        font-size: small;
+    }
+    .maps{
+        color: rgb(253, 44, 44);
+    }
+    .social-media{
+        color: rgb(253, 44, 44);
+        margin: 5%;
+        text-align: end;
+        display: inline-flex;
+
+    }
+    .social-media a{
+        padding: 3px;
+        color: rgb(253, 44, 44);
+        margin: 5%;
+        text-align: end;
+        display: inline-flex;
+    }
+
+}

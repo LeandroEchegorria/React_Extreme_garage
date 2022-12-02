@@ -1,0 +1,40 @@
+.card {
+    width: 90%;
+    height: 22rem;
+    background-color: #1B204D;
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    margin: 5%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+    
+}
+
+@media screen and (min-width: 790px) {
+    .card {
+        width: 18rem;
+        height: 25rem;
+        background-color: #1B204D;
+        border-radius: 1rem;
+        border: #212121 0.2rem solid;
+        transition: all 0.4s ease-in;
+        box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+        margin: 5%;
+        text-align: center;
+        color: white;
+        padding: 15px;
+
+        
+    }
+    
+    .card:hover {
+        transform: translateY(-1.5rem);
+        border: #f2295bf0 0.2em solid;
+        border-radius: 2.5rem 0 2.5rem 0;
+    }
+
+}
