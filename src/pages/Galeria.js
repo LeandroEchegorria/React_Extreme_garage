@@ -4,9 +4,9 @@ import ImageListItem from '@mui/material/ImageListItem';
 import { itemData } from '../assets/img/itemData';
 
 export default function StandardImageList() {
-
+  const pantalla = window.screen.width
   return (
-    <ImageList sx={{ width: 950, height: 650, margin: "auto"}} cols={3} rowHeight={200}>
+    <ImageList sx={{ width: "85%", height: "50%", margin: "auto"}} cols={(pantalla <750) ? 1 : 3} rowHeight={250}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
@@ -14,7 +14,7 @@ export default function StandardImageList() {
             srcSet={`${item.img}`}
             alt={item.title}
             loading="lazy"
-            style={{width:250, height:200, borderRadius: "20%"}}
+            style={{width:250, height:200, borderRadius: "3%"}}
           />
         </ImageListItem>
       ))}
