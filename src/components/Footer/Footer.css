@@ -30,7 +30,7 @@
         margin: 5%;
         text-align: end;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
 
     }
     .social-media a{

@@ -2,7 +2,7 @@ import React from 'react';
 import './SideMenu.css';
 import logo from '../../assets/img/Logo.png';
 import { Link } from 'react-router-dom';
-import SocialMedia from '../SocialMedia/SocialMedia';
+import SocialMediaMenu from '../SocialMediaMenu/SocialMediaMenu';
 
 
 
@@ -28,7 +28,7 @@ const SideMenu = () => {
             </button>
             
           </ul>
-          <SocialMedia/>
+          <SocialMediaMenu/>
         </div> 
   )
 }

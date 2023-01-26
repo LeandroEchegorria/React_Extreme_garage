@@ -56,7 +56,7 @@ export const itemData = [
         title: 'Bike',
     },
     {
-      img: 'https://res.cloudinary.com/ddylqd7fx/image/upload/v1667050653/Extreme_Garage_reactjs/images/limpieza1_sqrj9a.jpg',
+      img: 'https://res.cloudinary.com/ddylqd7fx/image/upload/v1674661880/Extreme_Garage_reactjs/images/WhatsApp_Image_2023-01-01_at_22.22.35_gcrxe8.jpg',
       title: 'Bike',
     },
     {
